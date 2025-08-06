@@ -1,0 +1,11 @@
+.selectColor {
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid goldenrod;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+

@@ -1,0 +1,22 @@
+.carsItem {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  justify-content: space-between;   
+  align-items: center;
+}
+
+.carsItem__brand {
+    width: 200px;
+    text-align:center;
+
+} 
+.carsItem__year {
+    width: 50px;
+    text-align:center;
+} 
+
+.carsItem__price {
+    width: 120px;
+    text-align:center;
+} 
