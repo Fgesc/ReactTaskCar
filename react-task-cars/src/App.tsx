@@ -1,7 +1,6 @@
-import './App.css';
 import { carsList } from './cars.const';
 import ListItem from './components/CarsItem/CarsItem';
-
+import './App.css';
 
 function App() {
   return (
