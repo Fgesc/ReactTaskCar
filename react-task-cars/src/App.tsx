@@ -2,6 +2,7 @@ import './App.css';
 import { carsList } from './cars.const';
 import ListItem from './components/CarsItem/CarsItem';
 
+
 function App() {
   return (
 <>
@@ -14,7 +15,7 @@ function App() {
     </h1>
     <ul className='carsList'>
         {carsList.map((car, index) => (
-            <ListItem key={index} carIndex={index} {...car} />
+            <ListItem key={String(index)} carIndex = {index} {...car} />
         ))}
     </ul>
 </>
